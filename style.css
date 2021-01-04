@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.name{
+    color: rgb(3, 22, 194);
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 35px;
+    color: rgb(3, 22, 194);
+}
+.half-width{
+    height: 50%;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url(./images/banner-bg.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(0, 119, 255), rgb(0, 59, 253));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600; 
+}
+p{
+    font-weight: 500;
+    font-size: 20px;
+    color: dimgray;
+}
+.dream-area{
+   background-image: url(./images/dreambig-bg.png);
+   background-repeat: no-repeat; 
+   background-position: right;
+   background-size: 7%;
+}
+.experience{
+    color: dodgerblue;
+}
+.single-exp{
+    box-shadow:10px 10px 40px gray;
+    border-radius: 5px;
+    background-color: white;
+}
+.experience-area{
+    background-image: url(./images/experience-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 85px;
+}
+#full-stack{
+    border-left: 6px solid dodgerblue;
+    border-image: linear-gradient(180deg,  dodgerblue, blue);
+    border-image-slice: 1;
+}
+#web-learner{
+    border-left: 6px solid dodgerblue;
+    border-image: linear-gradient(180deg,  dodgerblue, rgb(56, 59, 255));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
+}
